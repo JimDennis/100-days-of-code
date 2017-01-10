@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+# 1484033087 20170109 23:24 Day 4 Altum Videtur
+** Today I took a little sojourn into the server side; and into lxml/xpath
+   parsing.  I decided to use the full Latin Phrases list on Wikipedia as
+   a source for my own quote server; extract all the quotes from the tables
+   in that page (over 2100 of them), encode them out as JSON, then write
+   a very tiny Python Bottle app to serve them up:
+
+   http://www.starshine.org:8888/phrase/latin
+
+   The code to pull the data and extract the quotes is in quotes2json.py
+   and and the Bottle server is in quotegen.py.  The data is in quotes.json
+
+
 # 1483779653 20170107 01:00 Day 3 "JSON APIs and Ajax (2 hours)"
 ** Today I finished the last little sections on JSON APIs.
 
